@@ -11,17 +11,30 @@
             margin: 0px;
             box-sizing: border-box;
             font-family: metropolis;
+            color: brown;
             
         }
-         h1{
+         div{
              background-color: lime;
              color: bisque;
-             height: 50vh;
-             padding: 20px;
-             text-align: center;
-             width: 80vw;
-             padding-left: 20%;
-             padding-top: 10%;
+             height: 100px;
+             margin: 20px;
+             
+             
+         }
+         .two{
+             position: relative;
+             left: 33px;
+             
+             background-color: yellow;
+             top: 100px;
+         }
+         h1{
+             position: absolute;
+             background-color: burlywood;
+             
+             right: 0;
+             bottom: 0;
 
          }
 
@@ -30,7 +43,12 @@
     </style>
 </head>
 <body>
-    <h1>hey u </h1>
+    <div class="one">>
+    <h1>hey u heading of div </h1>
+    </div>
+    <div class="two">
+        <h1>heading of the div2</h1>
+    </div>
         
 </body>
 </html>
